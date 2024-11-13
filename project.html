@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JavaScript Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Variables" class="nav-link">Variables</a>
+        <a href="#Functions" class="nav-link">Functions</a>
+        <a href="#Loops" class="nav-link">Loops</a>
+        <a href="#Events" class="nav-link">Events</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a programming language that allows you to implement complex features on web pages.</p>
+            <p>It is a versatile and powerful language used widely in web development.</p>
+            <p>JavaScript can be used to create interactive effects within web browsers.</p>
+            <p>With JavaScript, you can update and change both HTML and CSS.</p>
+            <ul>
+                <li>JavaScript is an essential part of web applications.</li>
+                <li>Many websites use JavaScript to build dynamic content.</li>
+                <li>It can be used on both the client-side and server-side.</li>
+                <li>JavaScript frameworks like React, Angular, and Vue are popular for building modern web applications.</li>
+                <li>Learning JavaScript opens up a lot of opportunities in web development.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>In JavaScript, variables are used to store data values.</p>
+            <p>To declare a variable, you can use the var, let, or const keyword.</p>
+            <p>Variables defined with let and const have block scope.</p>
+            <p>Here is an example of declaring a variable:</p>
+            <code>let x = 5;</code>
+            <p>You can also declare multiple variables in one statement:</p>
+            <code>let x = 5, y = 6, z = 7;</code>
+            <ul>
+                <li>Variables can store different types of data such as numbers, strings, objects, and more.</li>
+                <li>It is good practice to use meaningful variable names that describe the data they hold.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>A JavaScript function is a block of code designed to perform a particular task.</p>
+            <p>Functions are defined with the function keyword, followed by a name, followed by parentheses ():</p>
+            <code>function myFunction() { // code to be executed }</code>
+            <p>You can call a function using its name followed by parentheses:</p>
+            <code>myFunction();</code>
+            <p>Functions can also accept parameters:</p>
+            <code>function myFunction(p1, p2) { return p1 * p2; }</code>
+            <ul>
+                <li>JavaScript functions can be used to create reusable code.</li>
+                <li>Functions can return values back to the code that called them.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops are used in JavaScript to perform repeated tasks based on a condition.</p>
+            <p>There are different types of loops in JavaScript: for, while, do...while.</p>
+            <p>The for loop is the most commonly used loop in JavaScript:</p>
+            <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+            <p>The while loop loops through a block of code as long as a specified condition is true:</p>
+            <code>let i = 0; while (i < 5) { console.log(i); i++; }</code>
+            <p>The do...while loop is similar to the while loop, but it executes the block of code once before checking the condition:</p>
+            <code>let i = 0; do { console.log(i); i++; } while (i < 5);</code>
+            <ul>
+                <li>Loops help in automating repetitive tasks.</li>
+                <li>They can iterate over arrays and objects.</li>
+                <li>Looping is a fundamental concept in programming.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Events">
+            <header>Events</header>
+            <p>JavaScript events are actions that can be detected by your web application.</p>
+            <p>Events are things that happen to HTML elements.</p>
+            <p>Examples of events include when a user clicks a button, hovers over an element, or presses a key.</p>
+            <p>Here is an example of an event listener:</p>
+            <code>document.getElementById("myBtn").addEventListener("click", function() { alert("Button was clicked!"); });</code>
+            <p>You can add multiple event listeners to a single element.</p>
+            <ul>
+                <li>JavaScript provides many built-in events.</li>
+                <li>Events make web applications interactive.</li>
+                <li>Handling events properly is crucial for a good user experience.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
